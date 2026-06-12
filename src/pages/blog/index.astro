@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { BASE } from '../../config'
+import data from '../../data/portfolio.json'
+---
+
+<BaseLayout title="Blog" description="Articles and thoughts by Mathew Kiptoo">
+  <section class="py-16 bg-gradient-to-br from-gray-50 to-blue-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">Blog</h1>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">Thoughts, experiences, and insights from my journey in tech and community development.</p>
+    </div>
+  </section>
+
+  <section class="py-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid gap-8">
+        {data.blogTopics.map((post) => (
+          <a href={`${BASE}blog/${post.slug}`} class="block bg-white rounded-xl shadow-md border border-gray-100 p-6 hover:shadow-lg transition group">
+            <time class="text-sm text-gray-500">{post.date}</time>
+            <h2 class="text-xl font-semibold text-gray-900 mt-1 group-hover:text-blue-600 transition">{post.title}</h2>
+            <p class="text-gray-600 mt-2">{post.description}</p>
+            <span class="inline-flex items-center gap-1 text-blue-600 font-medium mt-3 text-sm group-hover:gap-2 transition-all">
+              Read more <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

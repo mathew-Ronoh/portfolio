@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import Timeline from '../components/Timeline.astro'
+import data from '../data/portfolio.json'
+---
+
+<BaseLayout title="Experience" description="Mathew Kiptoo's professional experience and leadership">
+  <section class="py-16 bg-gradient-to-br from-gray-50 to-blue-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-12">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">Experience</h1>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">{data.careerObjective}</p>
+    </div>
+  </section>
+
+  <section class="py-8 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 p-8 mb-8">
+        <h2 class="text-xl font-bold text-gray-900 mb-3">Personality</h2>
+        <p class="text-gray-600 italic">{data.personality}</p>
+      </div>
+    </div>
+  </section>
+
+  <Timeline items={data.experience} title="Leadership History" type="experience" />
+</BaseLayout>

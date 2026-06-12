@@ -1,0 +1,149 @@
+{
+  "name": "Mathew Kiprono Kiptoo",
+  "title": "Computer Science Student",
+  "tagline": "Passionate about software development, networking, and community transformation",
+  "email": "mathewkkiptoo@gmail.com",
+  "phone": "+254707010674",
+  "location": "Chepkorio, Kenya",
+  "social": {
+    "github": "https://github.com/mathew-Ronoh",
+    "linkedin": "https://www.linkedin.com/in/mathew-kiptoo-a9060332a/",
+    "twitter": "https://x.com/mathewkkiptoo"
+  },
+  "about": "A motivated Computer Science student seeking an industrial attachment opportunity to apply theoretical knowledge in practical settings, gain hands-on experience in software development, networking, IT support, or related fields, and contribute to organizational goals while developing professional skills. Passionate about the lives of the less privileged, with a vision of seeing a transformed society where everyone lives a decent life.",
+  "careerObjective": "A motivated Computer Science student seeking an industrial attachment opportunity to apply theoretical knowledge in practical settings, gain hands-on experience in software development, networking, IT support, or related fields, and contribute to organizational goals while developing professional skills.",
+  "personality": "I am an individual who is passionate in the lives of less privileged, with a vision of seeing transformed society where everyone lives a decent life.",
+  "experience": [
+    {
+      "role": "Student Dormitory Captain",
+      "organization": "Kipsaos Boys High School",
+      "period": "2020 - 2022",
+      "description": "Led and managed student welfare in the dormitory, maintained discipline, and acted as a liaison between students and school administration."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "Kabarak University, Nakuru",
+      "period": "May 2024 - Present (Expected 2027)",
+      "status": "Ongoing"
+    },
+    {
+      "degree": "IELTS Preparation",
+      "institution": "International English Language Testing System",
+      "period": "February 2024 - April 2024"
+    },
+    {
+      "degree": "Certificate in Computer Application Packages",
+      "institution": "Rift Valley Technical Training Institute",
+      "period": "March 2023 - June 2023"
+    },
+    {
+      "degree": "Driving Course",
+      "institution": "Rift Valley Technical Training Institute",
+      "period": "July 2023 - September 2023"
+    },
+    {
+      "degree": "Kenya Certificate of Secondary Education (C+)",
+      "institution": "Kipsaos Boys High School",
+      "period": "February 2017 - December 2022"
+    },
+    {
+      "degree": "Kenya Certificate of Primary Education (B)",
+      "institution": "Kiptabach Mixed Day and Boarding Primary School",
+      "period": "2009 - 2016"
+    }
+  ],
+  "skills": {
+    "programming": ["JavaScript", "Java", "HTML", "Database Management", "Networking"],
+    "tools": ["Microsoft Office Suite (Word, Excel, PowerPoint, Access)", "Computer Hardware & Software Troubleshooting"],
+    "soft": ["Analytical & Problem Solving", "Communication & Teamwork", "Time Management", "Self-motivated", "Initiative", "Open-minded"]
+  },
+  "certifications": [
+    {
+      "name": "International English Language Testing System (IELTS)",
+      "issuer": "IELTS",
+      "period": "February 2024 - April 2024"
+    },
+    {
+      "name": "Certificate in Computer Application Packages",
+      "issuer": "Rift Valley Technical Training Institute",
+      "period": "March 2023 - June 2023"
+    },
+    {
+      "name": "Driving Course Certificate",
+      "issuer": "Rift Valley Technical Training Institute",
+      "period": "July 2023 - September 2023"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Weather API",
+      "description": "A weather application that fetches real-time weather data using a public API. Built to demonstrate proficiency in API integration, asynchronous JavaScript, and frontend development.",
+      "technologies": ["JavaScript", "API Integration", "HTML", "CSS"],
+      "link": "https://github.com/mathew-Ronoh/weather-api",
+      "type": "public"
+    },
+    {
+      "name": "Kilimo Smart",
+      "description": "A farm management system designed to help farmers digitize their operations. Features include crop tracking, inventory management, and data-driven insights for better agricultural decision-making.",
+      "technologies": ["JavaScript", "Database Management", "HTML", "CSS"],
+      "link": "https://github.com/mathew-Ronoh/remix_-kilimo-smart",
+      "type": "public"
+    },
+    {
+      "name": "Magic Patterns",
+      "description": "A creative project exploring algorithmic pattern generation and visualization. Demonstrates problem-solving skills and algorithmic thinking.",
+      "technologies": ["JavaScript", "Algorithms", "HTML"],
+      "link": "https://github.com/mathew-Ronoh/magic-patterns",
+      "type": "public"
+    },
+    {
+      "name": "Plagiarism Detector",
+      "description": "A tool focused on helping students work smarter by detecting plagiarism in academic submissions. Built with a focus on educational integrity.",
+      "technologies": ["Java", "Algorithms", "Data Processing"],
+      "link": "https://github.com/mathew-Ronoh/Plagiarism-detector",
+      "type": "private"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Mr. Fredrick Kipkoech",
+      "role": "Teacher, Kipsaina Girls High School",
+      "text": "Mathew is a disciplined and hardworking individual with strong leadership qualities and a genuine passion for learning.",
+      "contact": "0722704460"
+    },
+    {
+      "name": "Mr. Amos Kibire",
+      "role": "Mentor",
+      "text": "A motivated and reliable young professional who demonstrates excellent problem-solving abilities and a strong work ethic.",
+      "contact": "0722841059"
+    },
+    {
+      "name": "Mr. William Tanui",
+      "role": "Mentor",
+      "text": "Mathew is an open-minded individual with great initiative and a commitment to community development.",
+      "contact": "0725891693"
+    }
+  ],
+  "blogTopics": [
+    {
+      "title": "Why I Chose Computer Science",
+      "slug": "why-i-chose-computer-science",
+      "description": "My journey from primary school in Kiptabach to pursuing a degree in Computer Science at Kabarak University, and how technology can transform communities.",
+      "date": "2026-01-15"
+    },
+    {
+      "title": "My Vision for Community Transformation Through Technology",
+      "slug": "community-transformation-through-tech",
+      "description": "How I believe technology and software development can uplift the less privileged and create a more equitable society.",
+      "date": "2026-02-20"
+    },
+    {
+      "title": "Lessons from Building My First API Project",
+      "slug": "lessons-from-first-api-project",
+      "description": "What I learned building the Weather API project — from API integration to debugging asynchronous JavaScript.",
+      "date": "2026-03-10"
+    }
+  ]
+}
