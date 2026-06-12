@@ -1,0 +1,27 @@
+---
+export interface Props {
+  encoded: string
+  type: 'email' | 'phone'
+  className?: string
+}
+
+const { encoded, type, className } = Astro.props
+const prefix = type === 'email' ? 'mailto:' : 'tel:'
+---
+
+<span class={className} data-encoded={encoded} data-prefix={prefix}></span>
+
+<script>
+  for (const el of document.querySelectorAll('[data-encoded]')) {
+    const encoded = el.getAttribute('data-encoded')
+    const prefix = el.getAttribute('data-prefix') || ''
+    if (encoded) {
+      const decoded = atob(encoded)
+      const link = document.createElement('a')
+      link.href = prefix + decoded
+      link.textContent = decoded
+      link.className = 'text-blue-600 hover:underline'
+      el.replaceWith(link)
+    }
+  }
+</script>
